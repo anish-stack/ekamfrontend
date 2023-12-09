@@ -1,0 +1,69 @@
+.dashboard_container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav_Dashboard{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(172, 255, 227);
+}
+.Nav_Dashboard ul{
+    padding: 0 3rem;
+    line-height: 3.5;
+}
+.Nav_Dashboard ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    padding: 0.2rem .4rem;
+    border: 0.6px solid black;
+}
+
+.tab-content{
+    height: 100%;
+    width: 80%;
+    padding: 0 3rem;
+    overflow: scroll!important;
+
+    /* background-color: rgb(74, 223, 174); */
+}
+
+table{
+    overflow: scroll!important;
+}
+.purchase_model_table {
+    width: 100%;
+    margin-top: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Display ellipsis for overflowed text */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Optional: Add media queries for responsiveness */
+  @media screen and (max-width: 600px) {
+    th, td {
+      padding: 6px;
+    }
+  }
+  

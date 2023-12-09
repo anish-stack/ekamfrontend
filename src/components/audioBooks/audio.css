@@ -1,0 +1,62 @@
+.Audio_book_container{
+    width: 100%;
+    margin-top: 25px;
+    height: auto;
+}
+.heads{
+    margin-top: 30px;
+}
+.uppercase{
+    text-align: uppercase;
+}
+.prices{
+    color: orangered;
+}
+.Dprices{
+    font-weight: 700;
+}
+.Fprices{
+    color: orangered;
+    font-weight: 700;
+
+}
+.AudioBook_thumb{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.thumb-img{
+    width: 100%;
+    height: auto;
+}
+.thumb-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+.download-button{
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    border: none;
+cursor: pointer;
+    outline: none;
+    background-color: var(--color-orange);
+    color: var(--color-light-blue);
+
+}
+.signin-button{
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 0.9rem 2rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    background-color: var(--color-orange);
+    color: var(--color-light-blue);
+}

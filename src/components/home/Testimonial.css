@@ -1,0 +1,52 @@
+/* Testimonial.css */
+.test-testimonial-card {
+    text-align: center;
+    padding: 40px;
+    background: hsla(14, 93%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F64C18", endColorstr="#EE9539", GradientType=1 );
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  }
+  
+  .test-circle-image {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+  }
+  
+  .test-circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+.test-testimonial-card h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.test-testimonial-card p{
+    color: rgb(35, 32, 69);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .test-testimonial-card {
+      margin: 0;
+    }
+  }
+  

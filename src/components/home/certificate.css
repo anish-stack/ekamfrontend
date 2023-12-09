@@ -1,0 +1,96 @@
+.CertificatePage {
+    display: flex;
+   
+    background-color: #fff;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .certificate-right {
+    width: 60%;
+    max-width: 60%;
+    box-sizing: border-box;
+  }
+   .ceryificate-left {
+    width: 40%;
+    text-align: start;
+ 
+    max-width: 40%;
+    box-sizing: border-box;
+  }
+  
+
+  .hea {
+    position: relative;
+    left: 50%;
+    margin-bottom: 15px;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding:  1rem;
+    color:var(--color-dark-gray);
+    width: 100%;
+    background-color: var(--color-light-blue);
+  }
+  
+  .ceryificate-left h3 {
+    margin-top: 105px;
+    margin-left: 25px;
+    font-size: 2rem;
+  }
+  
+  .ceryificate-left p {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 25px;
+
+  }
+  
+  .certificate-img {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .certificate-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+    height: auto;
+  }
+  
+  .certificate-img img:hover{
+    transform: scale(1.1);
+    border: 2px solid green;
+  }
+
+  /* Media queries for responsiveness */
+  
+  @media only screen and (max-width: 768px) {
+.hea{
+    left: 50%!important;
+}
+.CertificatePage{
+    flex-direction: column;
+}
+.ceryificate-left h3 {
+    margin-top: 22px;
+  
+}
+    .ceryificate-left {
+      width: 100%;
+      max-width: 100%;
+      padding-right: 20px;
+    }
+  
+    .certificate-right {
+      width: 100%;
+      max-width: 100%;
+
+    }
+  }
+  
+  /* Add more media queries as needed for larger screens */
+  

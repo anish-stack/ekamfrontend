@@ -1,0 +1,152 @@
+.how-works-conatiner{
+    width: 100%;
+    min-height: 90vh;
+    color: #fff;
+    padding: 2rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('./24858829_sl_0210121_40570_58.jpg');
+    background-repeat: no-repeat;
+}
+.white{
+    font-size: 2rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+.cards-works{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-gap: 25px;
+}
+.cards{
+    cursor: pointer;
+    transition: outline 0.6s ease;
+    padding: 50px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: var(--color-dark-gray);
+    border-bottom: 4px solid green;
+}
+.cards:nth-child(2){
+    border-bottom: 4px solid #ff5100;
+ 
+}
+.cards:nth-child(3){
+    border-bottom: 4px solid #0073ff;
+ 
+}
+.cards:nth-child(4){
+    border-bottom: 4px solid #bb00ff;
+ 
+}
+.icons img{
+    width: 80px;
+}
+.icons ion-icon{
+    font-size: 5rem;
+}
+.step{
+    padding: 0.2rem;
+    border-radius:25px;
+    background-color: rgb(88, 94, 94);
+}
+.step h4{
+    font-weight: 500;
+}
+.other-card-info{
+    text-align: center;
+    padding-top: 0.2rem;
+}
+.other-card-info p{
+margin-top: 12px;
+font-weight: 700;
+color: #fff;
+font-size: 21px;
+}
+.other-card-info span{
+    margin-top: 12px;
+    font-weight: 400;
+    color: #595858;
+    font-size: 14px;
+    }
+
+    .cards:hover {
+        outline: 4px solid green;
+        outline-offset: 5px; /* Set the desired offset value */
+      }
+      .cards:nth-child(2):hover {
+        outline: 4px solid rgb(237, 146, 11);
+        outline-offset: 5px; /* Set the desired offset value */
+      }
+      .cards:nth-child(3):hover {
+        outline: 4px solid rgb(11, 199, 237);
+        outline-offset: 5px; /* Set the desired offset value */
+      }
+
+      .cards:nth-child(4):hover {
+        outline: 4px solid rgb(226, 11, 237);
+        outline-offset: 5px; /* Set the desired offset value */
+      }
+      .cards:hover > .other-card-info p{
+        color: rgb(160, 206, 160);
+      }
+
+
+      @media screen and (max-width: 768px) {
+        .cards-works{
+            grid-template-columns: repeat(2,1fr);
+        }
+      }
+
+      @media screen and (max-width: 468px) {
+        .cards-works{
+            grid-template-columns: repeat(1,1fr);
+        }
+       
+          .enroll-cta-container {
+           display: flex;
+        }
+        .no-rview-conatiner img {
+            width: 31%!important;
+            height: auto;
+            object-fit: cover;
+        }
+        .review-modal{
+            padding: 18px!important;
+        }
+      }
+
+      @media screen and (max-width: 828px) {
+        .workshop_card_body {
+            width: 100%;
+            min-height: 367px;
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+            padding: 0.5rem;
+            background-color: #fff;
+        }
+        .WhySections_body {
+            display: flex;
+            justify-content: space-around;
+            gap: 2rem;
+            align-items: center;
+        }
+     
+        .WhySections h2 {
+       
+            width: 70%;
+            background-color: #ffe4aa;
+        }
+        .nav-list {
+            list-style: none;
+            gap: 0.5rem;
+        }
+      }
+
+
+
+
+

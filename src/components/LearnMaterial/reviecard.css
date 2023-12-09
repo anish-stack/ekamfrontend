@@ -1,0 +1,45 @@
+.review-card {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+    min-height:200px ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #ffd700; /* Golden star color */
+  }
+
+
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .pagination button {
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+
+  .pagination button.active {
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #4caf50;
+  }

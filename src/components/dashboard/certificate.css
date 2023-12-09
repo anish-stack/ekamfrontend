@@ -1,0 +1,289 @@
+/* Add this CSS to your certificate.css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pinyon+Script|Rochester');
+.main-container-certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .verified{
+    max-width: 100px;
+    position: relative;
+    top: -51px;
+    right:-90%;
+  }
+  .center{
+    text-align: center!important;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .input-container label {
+    margin-bottom: 8px;
+  }
+  
+  .input-container input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+.cursive {
+    font-family: 'Pinyon Script', cursive;
+  }
+  
+  .sans {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .underline {
+    border-bottom: 1px solid #777;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .margin-0 {
+    margin: 0;
+  }
+  
+  .padding-0 {
+    padding: 0;
+  }
+  
+  .pm-empty-space {
+    height: 40px;
+    width: 100%;
+  }
+  
+
+  
+  .pm-certificate-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #618597;
+    padding: 30px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    /*background: -webkit-repeating-linear-gradient(
+      45deg,
+      #618597,
+      #618597 1px,
+      #b2cad6 1px,
+      #b2cad6 2px
+    );
+    background: repeating-linear-gradient(
+      90deg,
+      #618597,
+      #618597 1px,
+      #b2cad6 1px,
+      #b2cad6 2px
+    );*/
+    
+    .outer-border {
+      width: 794px;
+      height: 594px;
+      position: absolute;
+      left: 50%;
+      margin-left: -397px;
+      top: 50%;
+      margin-top:-297px;
+      border: 2px solid #fff;
+    }
+    
+    .inner-border {
+      width: 730px;
+      height: 530px;
+      position: absolute;
+      left: 50%;
+      margin-left: -365px;
+      top: 50%;
+      margin-top:-265px;
+      border: 2px solid #fff;
+    }
+  
+    .pm-certificate-border {
+      position: relative;
+      width: 720px;
+      height: 520px;
+      padding: 0;
+      border: 1px solid #E1E5F0;
+      background-color: rgba(255, 255, 255, 1);
+      background-image: none;
+      left: 50%;
+      margin-left: -360px;
+      top: 50%;
+      margin-top: -260px;
+  
+      .pm-certificate-block {
+        width: 650px;
+        height: 200px;
+        position: relative;
+        left: 50%;
+        margin-left: -325px;
+        top: 70px;
+        margin-top: 0;
+      }
+  
+      .pm-certificate-header {
+        margin-bottom: 10px;
+      }
+  
+      .pm-certificate-title {
+        position: relative;
+        top: 40px;
+  
+        h2 {
+          font-size: 34px !important;
+        }
+      }
+  
+      .pm-certificate-body {
+        padding: 20px;
+  
+        .pm-name-text {
+          font-size: 20px;
+        }
+      }
+  
+      .pm-earned {
+        margin: 15px 0 20px;
+        .pm-earned-text {
+          font-size: 20px;
+        }
+        .pm-credits-text {
+          font-size: 15px;
+        }
+      }
+  
+      .pm-course-title {
+        .pm-earned-text {
+          font-size: 20px;
+        }
+        .pm-credits-text {
+          font-size: 15px;
+        }
+      }
+  
+      .pm-certified {
+        font-size: 12px;
+  
+        .underline {
+          margin-bottom: 5px;
+        }
+      }
+  
+      .pm-certificate-footer {
+        width: 650px;
+        height: 100px;
+        position: relative;
+        left: 50%;
+        margin-left: -325px;
+        bottom: -105px;
+      }
+    }
+  }
+  
+
+  .certificate-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #4CAF50; /* Green border color */
+    color: #4CAF50; /* Green text color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .certificate-btn:hover {
+    background-color: #4CAF50; /* Green background color on hover */
+    color: #ffffff; /* White text color on hover */
+  }
+
+
+
+
+  /* Assuming 'Profile-conatiner', 'head', and 'User_info' are class names used in your React component */
+
+.Profile-conatiner {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  color: #333;
+}
+
+.User_info {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.User_info h4 {
+  margin-bottom: 10px;
+}
+
+.User_info span {
+  font-weight: bold;
+  color: #4caf50; /* Green color */
+}
+
+/* Style for the change password section */
+.User_info button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.User_info label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.User_info input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */

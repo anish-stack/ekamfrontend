@@ -1,0 +1,190 @@
+/* Videomodel.css */
+
+.video_model_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_model {
+  position: relative;
+  max-width: 800px;
+  max-height: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.video_model video {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+
+
+
+
+.close_video_model_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  background-color: #333;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+
+.close_video_model_btn:hover {
+  background-color: #555;
+}
+
+.felx {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.workshop_card {
+  width: 100%;
+  margin-top: 25px;
+}
+.workshop_card_body {
+  width: 100%;
+  min-height: 350px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+.workshop_card_img {
+  width: 100%;
+  height: 200px;
+}
+.workshop_card_img img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.1s ease;
+
+  object-fit: cover;
+}
+.workshop_card_information {
+  padding-left: 1rem;
+  margin-top: 12px;
+}
+.workshop_card_information ion-icon[name="person-circle-outline"] {
+  color: orangered;
+  font-size: 18px;
+}
+.workshop_card_information h4 {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  line-height: 0;
+  margin-bottom: 2px;
+  color: #332f2f;
+}
+.workshop_card_information h3 {
+  font-weight: 300;
+  margin-bottom: 3px;
+  color: #151010;
+}
+
+.workshop_card_cta {
+  padding: 0.3rem 1.5rem;
+  position: relative;
+  top: 20px;
+  background-color: orangered;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.margin-top{
+  margin-top: 25px;
+}
+
+.workshop_card_cta:hover{
+  background-color: rgb(239, 97, 45);
+
+}
+.demo-btn {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+transition: right 0.2s linear;
+  background-color: orangered;
+
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+.pagination-container{
+  width: 100%;  
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  top: 0;
+}
+.pagination-container button{
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+
+transition: right 0.2s linear;
+  background-color: orangered;
+  /* border-radius: 25px; */
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+.pagination-current{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  justify-content: center;
+}
+.workshop_card_body:hover > .demo-btn{
+  right: 0;
+}
+
+.workshop_card_body:hover > .workshop_card_img img{
+  transform: scale(1.1);
+}
+/* Your existing styles for workshop_card, workshop_card_body, etc. */
